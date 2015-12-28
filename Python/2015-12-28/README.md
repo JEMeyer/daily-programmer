@@ -36,12 +36,12 @@ eachother.
 The list of Secret Santa assignments. As Secret Santa is a random assignment,
 output may vary.
 
-    Joe -&gt; Jeff
-    Johnson -&gt; Jerry
-    Jerry -&gt; Joe
-    Jeff -&gt; Johnson
+    Joe -> Jeff
+    Johnson -> Jerry
+    Jerry -> Joe
+    Jeff -> Johnson
 
-But **not** `Jeff -&gt; Jerry` or `Jerry -&gt; Jeff`!
+But **not** `Jeff -> Jerry` or `Jerry -> Jeff`!
 
 # Challenge Input
 
@@ -68,10 +68,10 @@ But **not** `Jeff -&gt; Jerry` or `Jerry -&gt; Jeff`!
 The assignment list must avoid "closed loops" where smaller subgroups get
 assigned to each other, breaking the overall loop.
 
-    Joe -&gt; Jeff
-    Jeff -&gt; Joe # Closed loop of 2
-    Jerry -&gt; Johnson
-    Johnson -&gt; Jerry # Closed loop of 2
+    Joe -> Jeff
+    Jeff -> Joe # Closed loop of 2
+    Jerry -> Johnson
+    Johnson -> Jerry # Closed loop of 2
 
 # Challenge Credit
 
