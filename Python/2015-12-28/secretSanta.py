@@ -1,4 +1,4 @@
-import random
+import random, sys
 
 def findMatches(people):
     '''
@@ -18,8 +18,8 @@ def findMatches(people):
     
     return matches
 
-# Open input data file
-f = open('input.txt', 'r')
+# Open input data file (passed in)
+f = open(sys.argv[1], 'r')
 
 # Holds each line. Second array for family members
 allPeople = []
@@ -53,4 +53,4 @@ while (True):
 for match in matches:
     match[0] = match[0][:-2]
     match[1] = match[1][:-2]
-    print(match[0] + ' ==> ' + match[1])
+    print(match[0] + ' -> ' + match[1])
