@@ -1,1 +1,1 @@
-This is the folder holding Daily Programmer solutions written in C#.
+This folder holds Daily Programmer solutions written in C#.
