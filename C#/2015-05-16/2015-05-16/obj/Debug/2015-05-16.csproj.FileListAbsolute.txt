@@ -4,3 +4,6 @@ C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\2015-05-16\2015-05-16\
 C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\2015-05-16\2015-05-16\obj\Debug\2015-05-16.csprojResolveAssemblyReference.cache
 C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\2015-05-16\2015-05-16\obj\Debug\2015-05-16.exe
 C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\2015-05-16\2015-05-16\obj\Debug\2015-05-16.pdb
+C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\C#\2015-05-16\2015-05-16\bin\Debug\2015-05-16.exe.config
+C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\C#\2015-05-16\2015-05-16\obj\Debug\2015-05-16.exe
+C:\Users\Joe\Documents\GitHubVisualStudio\DailyProgrammer\C#\2015-05-16\2015-05-16\obj\Debug\2015-05-16.pdb
