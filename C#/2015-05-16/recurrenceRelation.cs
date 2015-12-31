@@ -2,7 +2,7 @@
 
 namespace _2015_05_16
 {
-    class Program
+    class recurrenceRelation
     {
         static void Main(string[] args)
         {
@@ -17,8 +17,6 @@ namespace _2015_05_16
             // List first iteration and then call recursive function
             Console.WriteLine("Term 0: " + startingTerm);
             recurse(transformation, startingTerm, iterations, 0);
-
-            Console.ReadLine();
         }
 
         static void recurse(string[] transform, int term, int count, int termNum)
