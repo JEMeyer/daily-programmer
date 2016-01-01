@@ -47,6 +47,7 @@ def encoder(path):
     
     # Will use log base 2 to find total number of characters per encoding.
     # Will treat g and G as 0 and 1 in binary
+    # len() section gets rid of unencoded characters and returns unique count
     neededKeyChars = math.ceil(math.log(len(''.join(set(re.sub(doNotEncode, '', rMessage)))), 2))
     
     # Encoded message and key
