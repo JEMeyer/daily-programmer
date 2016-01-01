@@ -31,7 +31,9 @@ def decoder(path):
                     message += value
                     secret = secret[len(key):]
             
-    return message
+    # Write decoded message
+    with open("decoded.txt", 'w') as f:
+        f.write(message)
     
 def encoder(path):
     '''
@@ -70,17 +72,17 @@ def encoder(path):
     output = ''
     for a, b in key.items():
         output += a + ' ' + b + ' '
-    return output + '\n' + encoded
+    output += '\n' + encoded
+    
+    # Write encoded message
+    with open("encoded.txt", 'w') as f:
+        f.write(output)
   
 action = sys.argv[1]
 input = sys.argv[2]
 
-# Decode takes in a path to a file, encode takes in a string to encode
+# Functions take file path
 if action == '-decode':
-    # Write decoded message
-    with open("decoded.txt", 'w') as f:
-        f.write(decoder(input))
+    decoder(input)
 elif action == '-encode':
-    # Write encoded message
-    with open("encoded.txt", 'w') as f:
-        f.write(encoder(input))
+    encoder(input)
