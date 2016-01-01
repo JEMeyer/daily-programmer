@@ -78,6 +78,7 @@ def encoder(path):
     with open("encoded.txt", 'w') as f:
         f.write(output)
   
+# Usage ggggg.py [-encode/-decode] file
 action = sys.argv[1]
 input = sys.argv[2]
 
