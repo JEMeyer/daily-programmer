@@ -17,9 +17,9 @@ for x in range(2, int(sys.argv[1]) + 2):
 
     message = ''
     if(divisorSum < number):
-        message = ' deficient'
+        message = ' is deficient by ' + str(number - divisorSum)
     elif (divisorSum > number):
-        message = ' abundant by ' + str(divisorSum - number)
+        message = ' is abundant by ' + str(divisorSum - number)
     else:
-        message = ' perfect'
+        message = ' is perfect'
     print(str(number) + message)
